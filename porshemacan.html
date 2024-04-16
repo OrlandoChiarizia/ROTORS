@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/Audir8.css">
+    <link rel="icon" type="image/png" href="imagenes/LOGO.jpg">
+    <script src="JS/productos.js" defer></script>
+    <title>Mercedes-Benz CLASE G 350 BlueTEC</title>
+</head>
+
+<header class="header">
+    
+    <div class="logo">
+        <img src="imagenes/LOGO.jpg" alt="Logo rotors">
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="Galeria.html">Galeria</a></li>
+            <li><a href="blogrotors.html">Blog</a></li>
+            <li><a href="Foro de discusiones.html">Foro</a></li>
+            <div class="formualrioreposnsive"><li><a href="Formulario.html">Contacto</a></li></div>
+
+        </ul>
+    </nav>
+    <a href="Formulario.html" class="esconder"><button>Contacto</button></a>
+    <div class="button">
+        <button class="boton-menu">&#9776;</button>
+      </div>
+</header>
+
+<body>
+
+    <div class="center">
+
+        <div class="product_card_cont-center">
+            <div class="product_card_cont">
+
+                <div class="principal_img_cont">
+                    <img src="IMAGENES/porshe-macan1.webp">
+                </div>
+
+                <div class="principal_img_cont">
+                    <img src="IMAGENES/porshe-macan2.webp">
+                </div>
+
+                <div class="principal_img_cont">
+                    <img src="IMAGENES/porshe-macan3.webp">
+                </div>
+
+                <div class="principal_img_cont">
+                    <img src="IMAGENES/porshe-macan4.webp">
+                </div>
+                <div class="principal_img_cont">
+                    <img src="IMAGENES/porshe-macan5.webp">
+                </div>
+
+                <div class="img_btn_cont-center">
+                    <div class="img_btn_cont">
+                        <button onclick="plusSlides(-1)"> <img src="IMAGENES/arrow_left.png"> </button>
+
+                        <div class="others_img_cont">
+                            <img class="demo active" src="IMAGENES/porshe-macan1.webp" onclick="currentSlide(1)">
+                            <img class="demo " src="IMAGENES/porshe-macan3.webp" onclick="currentSlide(2)">
+                            <img class="demo " src="IMAGENES/porshe-macan2.webp" onclick="currentSlide(3)">
+
+                            
+                        </div>
+
+                        <button onclick="plusSlides(1)"> <img src="IMAGENES/arrow_right.png"> </button>
+                    </div>
+                </div>
+
+                <div class="btn_option_cont">
+                    <button onclick="mostrarDescripcion()">Descripción</button>
+                </div>
+                
+                <div id="descripcion" style="display: none;" class="btn_option_cont">
+                    <p>Descripción del coche</p> 
+                    <br>   
+                    <table>
+                        <caption>Prestaciones Porsche Macan S diésel 258cv PDK Sport Chrono</caption>
+                        <tr>
+                            <th>Motor</th>
+                            <th>Aceleración (0-100 km/h)</th>
+                            <th>Velocidad Máxima</th>
+                            <th>Potencia (CV)</th>
+                            <th>Par Motor (Nm)</th>
+                        </tr>
+                        <tr>
+                            <td>3.0L Turbodiésel V6</td>
+                            <td>6,1 segundos</td>
+                            <td>240 km/h</td>
+                            <td>258</td>
+                            <td>580</td>
+                        </tr>
+                    </table>
+                    <button onclick="copiarNumero()">numero de telefono</button>
+                    <button onclick="cerrarDescripcion()">Cerrar descripción</button>
+                </div>-
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+        <div class="footer-row">
+        <div class="footer-links">
+            <h4>Compañia</h4>
+            <ul>
+                <li><a href="#">Sobre nosotros</a></li>
+                <li><a href="#">Nuestros Servicios</a></li>
+                <li><a href="#">Politica de privacidad</a></li>
+                <li><a href="#">Afiliate</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Ayuda</h4>
+            <ul>
+                <li><a href="#">Preguntas</a></li>
+                <li><a href="#">Alquileres</a></li>
+                <li><a href="#">Tipos de coches</a></li>
+                <li><a href="#">Formas de Pago</a></li>
+            </ul>
+        </div>
+        <div class="footer-links">
+            <h4>Siguenos</h4>
+            <div class="social-links">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        </div>
+    </div>
+    
+    </footer>
+
+    <script
+        src="https://kit.fontawesome.com/81581fb069.js"
+        crossorigin="anonymous"
+    ></script>
+    <script src="JS/barra.js"></script>
+</body>
+</html>

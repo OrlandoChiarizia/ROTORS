@@ -1,0 +1,412 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-size: 20px;
+    font-family: "Nunito", sans-serif;
+
+}
+body {
+    
+    background-color: #ffffff; 
+    position: relative;
+    padding-bottom: 100px;
+}
+
+
+/*navegacion*/
+
+header{
+  background-color: #24262b;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 85px;
+  padding: 5px 10%;
+
+}
+
+.header .logo {
+  cursor: pointer;
+  
+}
+.header .logo img{
+  height: 70px;
+  width: auto;
+  transition: all 0.3s;
+  border-radius: 58%;
+
+}
+
+.header .logo img:hover{
+  transform: scale(1.2);
+}
+
+.header .nav-links li{
+  display: inline-block;
+  padding: 20px 20px;
+}
+
+.header .nav-links li{
+  transform: scale(1.3);
+}
+
+.header .nav-links a{
+  font-size: 700;
+  color: #f0f0f0;
+  text-decoration: none;
+  
+
+}
+.header .nav-links li a:hover{
+  color: #640707;
+
+}
+
+.header .btn button{
+  font-weight: 700;
+  color: #1b3039;
+  padding: 9px 25px;
+  background: #eceff1;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3 aese 0s;
+  margin-top: 10px;
+}
+
+
+
+.header .btn button:hover{
+  background-color: #e65656;
+  color:rgb(213, 213, 204);
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 20%;
+    background-image: url('IMAGENES/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+    z-index: 0;
+}
+
+.texto-central {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em; /* Ajusta el tamaño del texto según tu preferencia */
+    color: rgba(255, 255, 255, 0.8); /* Color del texto con transparencia */
+    font-weight: bold; /* Establece la negrita para el texto */
+    text-align: center; /* Centra el texto horizontalmente */
+    z-index: 1; /* Asegura que el texto esté sobre la imagen de fondo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra suave para el texto */
+    font-family: 'Arial', sans-serif; /* Establece una fuente elegante */
+}
+
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.Contenedor {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.Contenedor form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.Contenedor form input[type="text"],
+.Contenedor form input[type="email"],
+.Contenedor form input[type="tel"],
+.Contenedor form select,
+.Contenedor form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-size: 16px;
+}
+
+.Contenedor form textarea {
+    resize: vertical;
+}
+
+.Contenedor form input[type="submit"] {
+    background: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 16px;
+}
+
+.Contenedor form input[type="submit"]:hover {
+    background: #ff4d4d;
+}
+
+/* Estilos específicos para los campos de archivo */
+.Contenedor form input[type="file"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+    font-size: 16px;
+}
+
+/* Estilos para el botón de envío */
+.Contenedor form input[type="submit"] {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-size: 16px;
+}
+
+.Contenedor form input[type="submit"]:hover {
+    background-color: #ff4d4d;
+}
+
+
+/* ********************************** */
+/*               FOOTER               */
+/* ********************************** */
+
+
+
+/* footer */
+.container .footer-row {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #24262b;
+    padding: 80px 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    margin-top: 1000px;
+   
+}
+
+
+.footer-row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-links{
+    width: 25%;
+    padding: 0 15px;
+
+}
+
+.footer-links h4{
+    font-size: 20px;
+    color: #f0f0f0;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid #ff0000;
+    padding-bottom: 10px;
+    display: inline-block;
+
+}
+
+.footer-links ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #BBBBBB;
+    display: block;
+    margin-bottom: 5px;
+    transition: all .3s ease;
+}
+.footer-links ul li a:hover{
+    color: #ffffff;
+    padding-left: 6px;
+}
+
+.social-links a{
+    display: inline-block;
+    min-height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all .5s ease;
+
+
+}
+
+.social-links a:hover{
+    background-color: #ff0000;
+}
+
+.esconder button {
+    font-weight: 700;
+    color: #1b3039;
+    padding: 9px 25px;
+    background: #eceff1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s; /* Corregido el tiempo de transición */
+    margin-top: 10px;
+}
+
+.esconder {
+    margin-left: 60px;
+}
+
+.esconder button:hover {
+    background-color: #e65656;
+    color: rgb(213, 213, 204);
+    transform: scale(1.1);
+}
+
+/* Estilos para pantallas pequeñas */
+@media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 80px; /* Ajusta según la altura de tu encabezado */
+      left: 0;
+      width: 100%;
+      background-color: #000000;
+      padding: 20px 0;
+      text-align: center;
+      z-index: 1000;
+    }
+
+    iframe {
+        display: none;
+    }
+  
+    .nav-links.active {
+      display: block;
+    }
+  
+    .nav-links li {
+      display: block;
+      padding: 10px 0;
+    }
+  
+    .nav-links a {
+      color: #f0f0f0;
+      font-size: 16px;
+    }
+  
+    .button {
+      display: block;
+      text-align: right;
+    }
+  
+    .button button {
+      font-weight: 700;
+      color: #000000;
+      padding: 9px 25px;
+      background: #eceff1;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      transition: all 0.3s ease 0s;
+      margin-top: 10px;
+    }
+  
+    .esconder{
+      display: none;
+    }
+
+    .btn button {
+        font-size: 14px; 
+        padding: 6px 15px; /* Ajusta el padding para que el botón sea más pequeño */
+      }
+
+    /* botones*/
+
+
+  
+
+    .locurote .btn button {
+        padding: 6px 10px; 
+    }
+
+    .locurote {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    .image-container {
+        margin-right: 0; 
+    }
+
+    .locurote .btn {
+        margin-left: 0; 
+        
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .button {
+      display: none;
+    }
+    .formualrioreposnsive{
+      display: none;
+    }
+
+    .nav-links {
+      display: flex !important;
+    }
+  
+    .nav-links li {
+      display: inline-block;
+      padding: 20px 20px;
+    }
+  
+    .nav-links a {
+      font-size: 16px;
+      color: #f0f0f0;
+      text-decoration: none;
+    }
+  
+    .nav-links li a:hover {
+      color: #640707;
+    }
+  }
+  
+
+
+

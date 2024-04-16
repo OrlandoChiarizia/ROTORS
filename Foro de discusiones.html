@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foro de Discusión</title>
+    <link rel="stylesheet" href="CSS/Frocc.css">
+    <link rel="icon" type="image/png" href="IMAGENES/LOGO.jpg">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="menu.html"><img src="IMAGENES/LOGO.jpg " alt="Logo rotors"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="ROTORS/Rotors html2/Galeria.html">Galeria</a></li>
+                <li><a href="blogrotors.html">Blog</a></li>
+                <li><a href="Foro de discusiones.html">Foro</a></li>
+                <div class="formualrioreposnsive"><li><a href="Formulario.html">Contacto</a></li></div>
+
+            </ul>
+        </nav>
+        <a href="Formulario.html" class="esconder"><button>Contacto</button></a>
+        <div class="button">
+            <button class="boton-menu">&#9776;</button>
+          </div>
+        </header>
+    
+    <br><br>
+    <main>
+        <section id="publicaciones">
+            <div class="publicacion">
+                <h2>Audi A4</h2>
+                <p>Que opinan de este coche? Me gustaría comparlo</p>
+                <img src="IMAGENES/audiA4.jpg" alt="Imagen relacionada">
+                
+                <section class="comentarios">
+                    <h3>Comentarios:</h3>
+                    <ul>
+                        <li>
+                            <p>Marc dijo:</p>
+                            <p>¡Interesante coche!</p>
+                        </li>
+                        <li>
+                            <p>Jose dijo:</p>
+                            <p>Estoy totalmente de acuerdo.</p>
+                        </li>
+
+                        <li>
+                            <p>Pedro dijo:</p>
+                            <p>Yo lo alquilé y es espectacular</p>
+                        </li>
+                    </ul>
+                    <form id="form-comentario">
+                        <div>
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div>
+                            <label for="comentario">Comentario:</label>
+                            <textarea id="comentario" name="comentario" required></textarea>
+                        </div>
+                        <button type="submit">Publicar Comentario</button>
+                    </form>
+                </section>
+            </div>
+        </section>
+        
+        <section id="formulario-publicacion">
+            <h2>Crear un nuevo tema</h2>
+            <form id="form-publicacion">
+                <div>
+                    <label for="titulo">Título:</label>
+                    <input type="text" id="titulo" name="titulo" required>
+                </div>
+                <div>
+                    <label for="contenido">Contenido:</label>
+                    <textarea id="contenido" name="contenido" required></textarea>
+                </div>
+                <div>
+                    <label for="imagen">Imagen (opcional):</label>
+                    <input type="file" id="imagen" name="imagen">
+                </div>
+                <button type="submit">Publicar</button>
+            </form>
+        </section>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-links">
+                    <h4>Compañia</h4>
+                    <ul>
+                        <li><a href="#">Sobre nosotros</a></li>
+                        <li><a href="#">Nuestros Servicios</a></li>
+                        <li><a href="#">Politica de privacidad</a></li>
+                        <li><a href="#">Afiliate</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Ayuda</h4>
+                    <ul>
+                        <li><a href="#">Preguntas</a></li>
+                        <li><a href="#">Alquileres</a></li>
+                        <li><a href="#">Tipos de coches</a></li>
+                        <li><a href="#">Formas de Pago</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Síguenos</h4>
+                    <div class="social-links">
+                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="JS/barra.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+</body>
+</html>
