@@ -539,6 +539,9 @@ footer {
     .button {
       display: none;
     }
+  .formualrioreposnsive{
+        display: none;
+      }
   
     .nav-links {
       display: flex !important;
